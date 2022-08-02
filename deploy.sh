@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# UUID="00277430-85b5-46e2-a6c9-4fe3da538187"
-# APP_NAME="lyz7805-v2ray"
+# UUID="4d706fb7-7ff0-4a91-a9d8-8cf5895dc3f6"
+# APP_NAME="flyio-v2rui"
 REGION="hkg"
 
 if ! command -v flyctl >/dev/null 2>&1; then
