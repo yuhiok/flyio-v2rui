@@ -2,7 +2,7 @@
 
 # Set ARG
 ARCH="64"
-DOWNLOAD_PATH="/tmp/v2ray"
+DOWNLOAD_PATH="/tmp/v2rui"
 
 mkdir -p ${DOWNLOAD_PATH}
 cd ${DOWNLOAD_PATH} || exit
