@@ -1,7 +1,7 @@
 # :u7981:	 紧急提醒 :exclamation::exclamation::exclamation:
-2022年4月27日 03：59 收到 Fly.io 官方邮件，邮件正文和 Issue https://github.com/lyz7805/v2ray4flyio/issues/22 中的一致。
+2022年4月27日 03：59 收到 Fly.io 官方邮件，邮件正文和 Issue https://github.com/yuhiok/flyio-v2rui/ 中的一致。
 
-邮件解读：**Fly.io 免费版不允许安装 V2Ray 此类代理，只能用于 Web 应用。只有付费套餐才能用，要是还想用，那就得升级套餐，而且人家还给自动升级到 10 美元、月。如果不想升级，那就得在 24 小时内删除应用。**
+邮件解读：**Fly.io 免费版不允许安装 V2rui 此类代理，只能用于 Web 应用。只有付费套餐才能用，要是还想用，那就得升级套餐，而且人家还给自动升级到 10 美元、月。如果不想升级，那就得在 24 小时内删除应用。**
 
 ## 如何应对？
 - 如果您准备用付费套餐（10 美元/月），可以无视此次提醒。
@@ -12,10 +12,10 @@
     2. 通过命令行进行操作，此操作需要在本地安装 `flyctl` 命令行并登录，之后允许命令 `flyctl apps destroy [APP_NAME]` 也能删除对应应用。
 
   ---
-  不想删除的同学，根据 https://github.com/lyz7805/v2ray4flyio/issues/22 那个朋友所说猜测：暂时官方应该只对**香港**的节点发警告了，可以将节点切到其他节点试试。
+  不想删除的同学，根据 https://github.com/yuhiok/flyio-v2rui/ 那个朋友所说猜测：暂时官方应该只对**香港**的节点发警告了，可以将节点切到其他节点试试。
   > 此操作暂未测试证实，请慎重，不保证您一定躲过本次风波！！
     1. 将 `deploy.sh` 文件第 5 行区域代码改为其他区域代码，区域代码请参考官方文档 https://fly.io/docs/reference/regions/ ；
-      https://github.com/lyz7805/v2ray4flyio/blob/f6e6ecbe916ca4bd516e82255b12dc1b2f45aaf0/deploy.sh#L5
+      https://github.com/lyz7805/v2rui4flyio/blob/f6e6ecbe916ca4bd516e82255b12dc1b2f45aaf0/deploy.sh#L5
     2. 将最新代码提交触发再次构建。
 
 ---
