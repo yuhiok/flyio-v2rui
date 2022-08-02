@@ -24,10 +24,10 @@
 > 
 > 在此，本人统一回复下：**Fork 后，配置完，最后也要 Push 一次代码才可触发构建**。
 
-# V2Ray4Fly.io
+# V2rui4Fly.io
 
 ## 概述
-通过 GitHub Actions 自动在 [Fly.io](https://fly.io/) 上部署 [V2Ray](https://www.v2fly.org/)
+通过 GitHub Actions 自动在 [Fly.io](https://fly.io/) 上部署 [V2rui](https://www.v2fly.org/)
 
 ## 配置部署
 1. 先到 [Fly.io](https://fly.io/) 注册账号，***注意：注册时要记得绑定信用卡，银联的就行***
@@ -81,4 +81,4 @@
 ```
 
 ## 参考
-* [V2Ray4Heroku](https://github.com/lyz7805/v2ray4heroku)
+* [V2rui4Heroku](https://github.com/lyz7805/v2rui4heroku)
